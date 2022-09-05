@@ -1,0 +1,21 @@
+1
+10.0 50.0 
+0
+1
+1.0 1.0
+5.0 2
+0 2 0	
+1 1			
+1 0.0001 
+1 0			
+
+##1  particle specie(1 proton;2 helium;3 oxygen;4 silicon;5 iron)
+##2  particle's energy in EeV, distance in Mpc
+##3  energy losses (0 off;1 on)
+##4  magnetic field model:(1 Cellular Structure;2 Cubic Domain;3 Uniform Magnetic Field), 
+##5  magnetic field strength in nG, (if magnetic field model is 1 or 2) coherence length in Mpc
+##6  skin depth in % of coherence length, number of nearby cells to be considered
+##7  backtracking(0 off;1 on), stopping distance(1 traveled distance;2 trajectory radius), magnetic rigidity(0 off;1 on)								
+##8  number of launched particles, number of plotted trajectories 
+##9  equation of motion integration:(1 Runge-Kutta 4th;2 Boris;3 Vay;4 New Euler), time scale
+##10 random distribution (1 uniform;2 gaussian, with the parameter sigma=1), random seed (0 based on time, 1 fixed (123 as default - variable mySeed, line 17, file MPFRGSLvariables.h))
